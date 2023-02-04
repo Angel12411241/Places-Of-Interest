@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+}   
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin-left: 4.2;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{  
+    color: rgb(241, 2, 2);
+    font-size:  45px;
+
+    font-weight: bold;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 15px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+ul li a:hover{
+    color: rgb(241, 2, 2);
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 100px;
+    padding-right: 550px;
+    line-break: auto;
+}
+
+.content .par{
+    
+    padding-bottom: 25px;
+    
+    letter-spacing: 1.4px;
+    line-height: 30px;
+}
+
+.content .span{
+    color: rgb(241, 2, 2);
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: rgb(241, 2, 2);
+
+}  
+
+.population{
+    color: rgb(241, 2, 2);
+}
+
+.a{
+
+    list-style-type: square;
+}
+
+.regform{
+
+    width: 550px;
+    margin: 150px auto;
+    padding: 30px;
+}
+.regform h1{
+    color: rgb(241, 2, 2);
+    margin-left: 90px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    padding: 30px;
+}
+
+input[type="text"]{
+    width: 450px;
+    height: 30px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px ;
+    margin-left: 52px;
+}
+
+.choosebutton{
+    color: #fff;
+    font-size: 15px;
+}
+
+.choosebutton input[type='file']{
+    color: rgb(241, 2, 2);
+}
+
